@@ -1,44 +1,11 @@
-# Basic testing
-
-⚠️ DO NOT SUBMIT PULL REQUESTS TO THIS REPO ⚠️
-
+# Jest Basic testing
 ---
-
-### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
-2. Fork this repository: https://github.com/AlreadyBored/basic-testing
-3. Clone your newly created repo locally: https://github.com/<%your_github_username%>/basic-testing/  
-4. Go to folder `basic-testing`  
-5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
-6. Run **test scripts** in command line.
-7. You will see the number of skipped, passing and failing tests.
-
----
-
-### Test scripts
-
-```bash
-# run unit tests
-$ npm run test
-
-# with logging
-$ npm run test:verbose
-```
-
----
-
 #### Notes
 1. We recommend you to use Node.js of version 22.x.x (22.14.0 or upper) LTS. If you use any of features, that does not supported by Node.js 22, there may be problems with task submit.
 2. Please, be sure that each of your tests is limited to 30 sec.
 3. Please, be sure you don't have any linter/TS compiler errors.
 
 ---
-
-## General task description
-Your task is to write unit tests for code, provided in file `index.ts`. 
-
----
-
 ### **Simple tests**
 
 Write unit tests for the `simpleCalculator` function, which performs basic mathematical operations - addition, subtraction, division, multiplication, and exponentiation. Your task is to verify that the operations are executed correctly and that the function returns `null` for invalid input.
